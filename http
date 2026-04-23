@@ -1,0 +1,35 @@
+🌐 What is HTTP?
+
+HTTP (HyperText Transfer Protocol) is a rule (protocol) used for communication between a web browser (client) and a web server.
+
+🧠 Simple Definition (Interview Style)
+
+👉 HTTP is a protocol used to transfer web pages and data from server to client over the internet.
+
+🌍 Easy Example
+
+When you open a website:
+
+http://example.com
+
+👉 Your browser sends a request
+👉 Server sends back a response (web page)
+
+⚙️ How HTTP works
+Client (browser) sends request
+Server processes it
+Server sends response (HTML, images, etc.)
+
+Example:
+
+GET /index.html HTTP/1.1
+🔑 Key Features
+Works on port 80
+Stateless (doesn’t remember previous requests)
+Fast but not secure
+❌ Problem with HTTP
+Data is not encrypted
+Hackers can read information (like passwords)
+🔐 Solution → HTTPS
+
+👉 Secure version of HTTP (uses encryption)
