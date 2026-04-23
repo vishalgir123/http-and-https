@@ -1,0 +1,38 @@
+🔐 What is HTTPS?
+
+HTTPS (HyperText Transfer Protocol Secure) is a secure version of HTTP used to transfer data between your browser and a website.
+
+🧠 Simple Definition (Interview Style)
+
+👉 HTTPS is a protocol that encrypts data between client and server to keep communication secure.
+
+🌐 Easy Example
+
+When you open a website like:
+
+https://google.com
+The 🔒 lock icon in the browser means the connection is secure.
+🔑 How HTTPS works
+Uses SSL/TLS encryption
+Data is converted into a secret code (encrypted)
+Only the server and client can understand it
+⚙️ HTTPS vs HTTP
+Feature	HTTP ❌	HTTPS ✅
+Security	No	Yes (Encrypted)
+Port	80	443
+Data Safety	Unsafe	Safe
+Example	http://	https://
+🔐 Why HTTPS is important?
+Protects passwords 🔑
+Secures payment info 💳
+Prevents hacking & data theft
+Builds trust (🔒 symbol)
+🚀 Real Example
+
+When you log in to a website:
+
+Without HTTPS → data can be stolen
+With HTTPS → data is encrypted and safe
+🎯 Short Answer (for interview)
+
+👉 “HTTPS is a secure version of HTTP that uses SSL/TLS encryption to protect data during communication between client and server.”
