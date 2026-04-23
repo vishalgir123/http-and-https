@@ -1,0 +1,45 @@
+🔐 What is SSH?
+
+SSH (Secure Shell) is a protocol used to connect securely to a remote computer/server over a network.
+
+🧠 Simple Definition (Interview Style)
+
+👉 SSH is a secure way to access and control a remote server using the command line.
+
+🏠 Easy Example
+
+Think of SSH like a remote control for your server:
+
+Your laptop = Remote
+Server = TV
+SSH = Secure connection between them
+
+You can sit at home and control a server anywhere in the world.
+
+⚙️ How SSH works
+It connects using:
+IP address
+Username
+Password or Key (recommended)
+Default port = 22
+
+Example command:
+
+ssh ubuntu@192.168.1.10
+🔑 Why SSH is used?
+Secure login 🔒 (encrypted connection)
+Remote server control 🖥️
+File transfer (using SCP/SFTP)
+Manage cloud servers (like AWS EC2)
+🚀 Real Example
+
+When you create a server in AWS:
+
+You connect using SSH:
+ssh -i key.pem ubuntu@your-public-ip
+⚠️ Important
+SSH is encrypted (safe)
+Never share your private key (.pem file)
+🎯 Short Answer (for interview)
+
+👉 “SSH is a secure protocol used to remotely access and manage servers over a network.”
